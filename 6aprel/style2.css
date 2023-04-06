@@ -1,0 +1,33 @@
+.box{
+    position: relative;
+    width: 40%;
+    height: 500px;
+    background-color: burlywood;
+    margin: 40px auto;
+}
+.child{
+    margin-left: 10px;
+    padding-top: 50px;
+    color: aliceblue;
+    width: 150px;
+    height: 80px;
+    background-color: blueviolet;
+    border: 2px solid white;
+}
+.box .child:nth-child(2){
+    border: 2px solid rgb(15, 1, 27);
+}
+.box{
+   
+    text-align: center;
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+.box .child:nth-child(2){
+    z-index: 10;
+    position: absolute;
+    right: 20%;
+    top: 120%;
+    
+}

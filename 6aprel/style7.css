@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    display: flex;
+}
+aside{
+    height: 100vh;
+    width: 10%;
+    background-color:black;
+}
+aside ul li a{
+    text-decoration: none;
+    color: white;
+}
+aside ul li{
+line-height: 20px;
+padding-top: 10px;
+}
+p{
+    margin-top: 10px;
+}
+aside{
+    position: fixed;
+}
+main{
+    padding-left: 10%;
+}
+ul{
+    font-size: 30px;
+
+}

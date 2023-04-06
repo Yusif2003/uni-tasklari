@@ -1,0 +1,48 @@
+body {
+    background-color: aliceblue;
+}
+
+.cercive {
+    
+    margin: 50px auto;
+    width: 800px;
+    height: 700px;
+    color: aliceblue;
+    background-image: url("https://sc01.alicdn.com/kf/HTB1bEKQLVXXXXbDXXXXq6xXFXXXX/200924717/HTB1bEKQLVXXXXbDXXXXq6xXFXXXX.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 15px solid rgb(233, 234, 238);
+    outline: 10px solid white;
+    border-radius: 10px;
+    text-align: center;
+}
+h1{
+font-size: 60px;
+margin-top: 200px;
+}
+.sozler{
+    color: rgb(105,68,60);
+    width: 250px;
+    height: 250px;
+    margin: 0px auto;
+}
+button{
+    padding: 10px 20px;
+    color: rgb(241,187,129);
+    border-radius: 20px;
+}
+.icons{
+    color: rgb(105,68,60);
+    margin-top: 50px;
+
+}
+.fa-brands{
+    margin-left: 20px;
+}
+.icons i:hover{
+    transition: 1s;
+font-size: 50px;
+color: blanchedalmond;
+
+}
