@@ -1,0 +1,72 @@
+.container {
+    display: flex;
+     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+    width: 70%;
+    margin: 20px auto;
+    border: 4px solid blue;
+   
+}
+.container header h3{
+    font-size: 40px;
+    color: greenyellow;
+}
+.container .icons i{
+    font-size: 30px;
+    color: coral;
+}
+.container .cards{
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  flex-wrap: wrap;
+    margin: 30px 0;
+}
+.cards .card1 .cardtittle{
+    text-align: center;
+   
+
+}
+.container .cards [class|="card"]{
+    margin-left: 70px;
+    height: 250px;
+    width: 250px;
+    border: 1px solid black; 
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    flex-direction: column;
+}
+.card-1{
+    padding: 10px;
+    color: aliceblue;
+    background-color: brown;
+}
+.card-2{
+    padding: 10px;
+    color: aliceblue;
+    background-color:red
+}
+.card-3{
+    padding: 10px;
+    color: aliceblue;
+    background-color:yellow
+}
+.card-4{
+    padding: 10px;
+    color: aliceblue;
+    background-color: aqua;
+}
+.card-5{
+    padding: 10px;
+    color: aliceblue;
+    background-color: chartreuse;
+}
+.card-6{
+    padding: 10px;
+    color: aliceblue;
+    background-color: darkslategrey;
+}
