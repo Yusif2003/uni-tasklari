@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    display: flex;
+}
+
+.container {
+    display: flex;
+     flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    width: 60%;
+}
+.container .cards{
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  flex-wrap: wrap;
+    margin: 10px 0;
+}
+.container .cards [class|="card"]{
+    margin-left: 70px;
+    height: 250px;
+    width: 250px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    flex-direction: column;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+ul li{
+    padding-top: 15px;
+}
+.blog{
+    width: 40%;
+   
+    margin-top: 40px;
+}
+.blog img{
+    height: 80px;
+    width: 100px;
+    padding-top: 10px;
+}
+.image{
+    display: flex;
+}
+.image p{
+    margin-top: 10px;
+    margin-left: 10px;
+}
