@@ -1,0 +1,87 @@
+$primary: #333;
+$secondary: gray;
+$succes:seagreen;
+$danger:red;
+$warning:orange;
+$info:blue;
+$light:white;
+$dark:black;
+
+.container
+{
+    width: 80%;
+    margin: 60px auto;
+    div{
+display: flex;
+        justify-content: center;
+        align-items: center;
+   
+    a{
+text-decoration: none;
+        padding: 15px;
+        margin-left: 10px;
+
+    } 
+}
+}
+@mixin color($btncolor,$fontcolor,$hover,$radius) {
+    background-color: $btncolor;
+    color: $fontcolor;
+    border-radius: $radius;
+  
+    &:hover{
+        background-color: $hover;
+    }
+}
+.first-line a:nth-child(1){
+    @include color($primary,white,red,10px,)
+}
+.first-line a:nth-child(2){
+    @include color($secondary,black,blue,10px )
+}
+.first-line a:nth-child(3){
+    @include color($succes,white,green,10px )
+}
+.first-line a:nth-child(4){
+    @include color($danger,white,gray,10px )
+}
+.first-line a:nth-child(5){
+    @include color($warning,black,blue,10px )
+}
+.first-line a:nth-child(6){
+    @include color($info,white,blue,10px )
+}
+.first-line a:nth-child(7){
+    @include color($light,black,blue,10px )
+}
+.first-line a:nth-child(8){
+    @include color($dark,white,blue,10px)
+}
+
+
+.second-line a:nth-child(1){
+    @include color($primary,white,blue,40px )
+}
+.second-line a:nth-child(2){
+    @include color($secondary,black,blue,40px )
+}
+.second-line a:nth-child(3){
+    @include color($succes,white,blue,40px )
+}
+.second-line a:nth-child(4){
+    @include color($danger,white,blue,40px )
+}
+.second-line a:nth-child(5){
+    @include color($warning,black,blue,40px )
+}
+.second-line a:nth-child(6){
+    @include color($info,white,blue,40px )
+}
+.second-line a:nth-child(7){
+    @include color($light,black,blue,40px )
+}
+.second-line a:nth-child(8){
+    @include color($dark,white,blue,40px)
+}
+
+
