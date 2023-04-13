@@ -1,0 +1,20 @@
+.hero {
+    background-image: url(https://www.searchenginejournal.com/wp-content/uploads/2022/08/google-shopping-ads-6304dccb7a49e-sej.png);
+    height: 100vh;
+    width: 100%;
+   filter: brightness(70%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 40px;
+    background-attachment: fixed;
+
+}
+.hero button{
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-top: 30px;
+}

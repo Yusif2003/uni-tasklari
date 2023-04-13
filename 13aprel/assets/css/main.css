@@ -1,0 +1,84 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
+.product .info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+nav {
+  width: 90%;
+  margin: 0 auto;
+  height: 50px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 25px;
+}
+
+header {
+  background-color: rgb(212, 206, 16);
+  width: 100%;
+  z-index: 999;
+  position: fixed;
+}
+
+button {
+  background-color: rgb(254, 250, 240);
+  border: none;
+}
+
+.card {
+  font-size: 20px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.hero {
+  background-image: url(https://www.searchenginejournal.com/wp-content/uploads/2022/08/google-shopping-ads-6304dccb7a49e-sej.png);
+  height: 100vh;
+  width: 100%;
+  filter: brightness(70%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 40px;
+  background-attachment: fixed;
+}
+
+.hero button {
+  padding: 10px 30px;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+.product {
+  display: grid;
+  gap: 20px;
+}
+.product img {
+  height: 400px;
+  width: 300px;
+}/*# sourceMappingURL=main.css.map */

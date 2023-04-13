@@ -1,0 +1,11 @@
+.product{
+    display: grid;
+    gap: 20px;
+    img{
+        height: 400px;
+        width: 300px;
+    }
+    .info{
+        @extend %center
+    }
+}
