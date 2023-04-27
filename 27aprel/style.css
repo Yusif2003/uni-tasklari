@@ -1,0 +1,12 @@
+.box{
+    background-color: rgb(47, 47, 250);
+    height: 400px;
+}
+input[type=file]::file-selector-button{
+    margin-right:20px;
+    border:none;
+    background-color: #084cdf;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer ;
+}
