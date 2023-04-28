@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(19, 143, 196);
+}
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+}
+
+#input {
+    padding: 9px 0px;
+    width: 250px;
+    display: block;
+    border: none;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    width: 30px;
+    height: 33px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+}
+
+form i {
+    color: orange;
+    border: 1px solid orange;
+    border-radius: 2px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    background-color: white;
+    width: 800px;
+    height: 50px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#trash{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+}
+#check{
+    background-color: orange;
+    height: 50px;
+    width: 50px;
+}
+.trash{
+    color: white;
+}
+.check{
+    color: white;
+}
+.buttons{
+    display: flex;
+}
