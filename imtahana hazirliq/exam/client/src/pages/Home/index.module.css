@@ -1,0 +1,28 @@
+#hero{
+    background-image: url('https://preview.colorlib.com/theme/security/img/header-bg.jpg.webp');
+    width: 100%;
+    height: 100vh;
+    background-position: top center;
+    background-size: cover;
+    filter: brightness(70%);
+}
+.body{
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    width: 40%;
+}
+button{
+    padding: 15px 40px;
+    background-color: orange;
+    border: none;
+    margin-top: 20px;
+    color: white;
+    transition: .6s;
+}
+button:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid orange;
+
+}
